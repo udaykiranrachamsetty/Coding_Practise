@@ -6,7 +6,8 @@ public class finduniqueoccurences {
     public static void main(String[] args) {
         int[] arr = {1,2,2,1,1,3};
         System.out.println(countoccurences(arr));
-
+        String s = "abc";
+        System.out.println(s.substring(0,2));
     }
     public static boolean countoccurences(int[] arr){
         Map<Integer,Integer> map = new HashMap<>();
